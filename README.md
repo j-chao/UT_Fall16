@@ -1,4 +1,5 @@
 # UT_Fall16
+UT Austin Fall 2016
 
 ISP                   - Introduction to Scientific Programming  
 STC                   - Scientific & Technical Computing  
