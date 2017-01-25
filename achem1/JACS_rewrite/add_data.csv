@@ -1,0 +1,7 @@
+# File: add_data.csv
+# Standard Additions Curve data
+# V_s (mL) , TAPWATER V_tot * 10^(E/m) , MOUTHWASH V_tot * 10^(E/m)
+0.5, 1.73E6, 2.14E-2
+1, 8680, 5.61E-3
+2, 19.9, 1.03E-3
+3, 1.01, 3.72E-4

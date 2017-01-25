@@ -1,0 +1,1 @@
+/opt/apps/intel/16.0.1.150/compilers_and_libraries_2016.1.150/linux/bin/intel64/icc    -fPIC CMakeFiles/Needleman_Wunsch.dir/main.c.o CMakeFiles/Needleman_Wunsch.dir/needleman_wunsch.c.o  -o Needleman_Wunsch -rdynamic 

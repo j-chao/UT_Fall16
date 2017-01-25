@@ -1,0 +1,9 @@
+# import_Survey_Respondent.py runtimes
+
+real    0m3.635s
+user    0m1.152s
+sys     0m0.649s
+
+1572 records imported.
+
+No import errors.

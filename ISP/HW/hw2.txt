@@ -1,0 +1,82 @@
+/* NAME: Justin Chao
+ * EID: jc55395
+ * COURSE: SDS322
+ * ASSIGNMENT: comment on the following code: calculator.c
+ */
+
+// include preprocessor directive and standard headers
+#include <stdio.h>
+#include <stdlib.h>
+
+// define constant variables
+#define MAXOP 100
+#define NUMBER '0'
+
+// define function types
+// getop() returns next character in the file
+int getop(char []);
+// push() pushes the double variable on the stack
+void push(double);
+// pop() pops the stack
+double pop(void);
+
+/* reverse Polish Calculator
+ * using a Postfix algorithm on a stack
+ */
+
+// main function
+main() {
+    // declare variable types and identifiers
+    int type;
+    double op2;
+    char s[MAXOP];
+
+    // while loop, continue while getop() does not reach the End of File
+    while ((type = getop(s)) != EOF) {
+        // switch function depending on what character getop() returns
+        switch (type) {
+            // if type is a number, push the number on the stack and break
+            case NUMBER:
+                push(atof(s));
+                break;
+            // if character is '+', pop the top two numbers on the stack and push the sum back on
+            // the stack, then break
+            case '+':
+                push(pop() + pop());
+                break;
+            // if character is '*', pop the top two numbers on the stack and push the product back
+            // on the stack, then break
+            case '*':
+                push(pop() * pop());
+                break;
+            // if character is '-', pop the first number, then pop the next number and push the
+            // answer of the second number subtracted by the first number on the stack, then break
+            case '-':
+                op2 = pop();
+                push(pop() - op2);
+                break;
+            // if character is '/', pop the first number off the stack. If this number is not 0.0,
+            // then pop the next number and push the quotient of the second number divided by the
+            // first number back on the stack.
+            // Otherwise, print out "error: zero divisor", then break
+            case '/':
+                op2 = pop();
+                if (op2 != 0.0) {
+                    push(pop() / op2);
+                } else {
+                    printf("error: zero divisor\n");
+                }
+                break;
+            // if the charcter is a "new line", print with format specifiers, and pop, then break
+            case '\n':
+                printf("\t%.8g\n", pop());
+                break;
+            // if all other switches cases do not match, print error message with string format
+            // specifier, then break
+            default:
+                printf("error: unkonwn command %s\n", s);
+                break;
+        }
+    }
+    // return exit code for program with no error
+    return 0;

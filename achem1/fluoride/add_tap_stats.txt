@@ -1,0 +1,33 @@
+* FILE: 'add_data.csv' using 1:2
+  Records:           4
+  Out of range:      0
+  Invalid:           0
+  Blank:             0
+  Data Blocks:       1
+
+* COLUMNS: V_s (mL) , TAPWATER V_tot * 10^(E/m)
+  Mean:               1.6250       434675.2275
+  Std Dev:            0.9601       747864.4812
+  Sample StdDev:      1.1087       863559.5191
+  Skewness:           0.2780            1.1546
+  Kurtosis:           1.5734            2.3333
+  Avg Dev:            0.8750       647662.3862
+  Sum:                6.5000       1.73870e+06
+  Sum Sq.:           14.2500       2.99298e+12
+
+  Mean Err.:          0.4801       373932.2406
+  Std Dev Err.:       0.3395       264410.0230
+  Skewness Err.:      1.2247            1.2247
+  Kurtosis Err.:      2.4495            2.4495
+
+  Minimum:            0.5000 [0]        1.0100 [3]
+  Maximum:            3.0000 [3]   1.73000e+06 [0]
+  Quartile:           0.7500           10.4550
+  Median:             1.5000         4349.9500
+  Quartile:           2.5000       869340.0000
+
+  Linear Model:       y = -5.293e+05 x + 1.295e+06
+  Slope:              -5.293e+05 +- 4.041e+05
+  Intercept:          1.295e+06 +- 7.627e+05
+  Correlation:        r = -0.6795
+  Sum xy:             8.737e+05

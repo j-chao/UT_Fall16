@@ -1,0 +1,22 @@
+			Sequence Overview				
+							
+Sequence Details							
+Name:		alena_b			Created On:	14/Feb/11 19:23:07	
+Directory:		Instrument Data\HPLC\Sequences\CH 456\Alena			Created By:	Dionex Customer	
+Data Vault:		ChromeleonLocal			Updated On:	01/Nov/16 09:48:37	
+No. of Injections:		9			Updated By:	student	
+							
+Injection Details							
+No. 	Injection Name	Position 	Type 	Level 	Inject Time 	Status 	
+							
+[1.67..1.76]	[1.67..1.76]	[1.67..1.76]	[1.67..1.76]	[1.67..1.76]	[1.67..1.76]	[1.67..1.76]	
+							
+1	1 mL Std	1	Calibration Standard		01/Nov/16 09:21:42	Finished	
+2	2 mL Std	2	Calibration Standard		01/Nov/16 09:31:34	Finished	
+3	5 mL Std	3	Calibration Standard		01/Nov/16 09:42:09	Finished	
+4	Unknown-run1	5	Unspiked		01/Nov/16 09:53:19	Finished	
+5	Unknown-run2	6	Unspiked		01/Nov/16 10:03:36	Finished	
+6	Unknown-run3	7	Unspiked		01/Nov/16 10:13:48	Running	
+7	Spike-run1	8	Spiked		n.a.	Idle	
+8	Spike-run2	9	Spiked		n.a.	Idle	
+9	Spike-run3	10	Spiked		n.a.	Idle	

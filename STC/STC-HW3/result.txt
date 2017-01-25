@@ -1,0 +1,97 @@
+Results for matrix multiply operations with different optimizations and reuse.
+
+icc-O0_noreuse_2000
+user	0m29.938s
+============== 
+
+gcc-O0_noreuse_2000
+user	0m24.114s
+============== 
+
+icc_noreuse_2000
+user	0m0.652s
+============== 
+
+gcc_noreuse_2000
+user	0m24.126s
+==============  
+
+icc-O3_noreuse_2000
+user	0m0.644s
+============== 
+
+gcc-O3_noreuse_2000
+user	0m6.820s
+============== 
+
+icc-O0_reuse_2000
+user	0m20.729s
+============== 
+
+gcc-O0_reuse_2000
+user	0m23.077s
+============== 
+
+icc_reuse_2000
+user	0m0.624s
+============== 
+
+gcc_reuse_2000
+user	0m23.061s
+============== 
+
+icc-O3_reuse_2000
+user	0m0.612s
+============== 
+
+gcc-O3_reuse_2000
+user	0m6.820s
+============== 
+
+icc-O0_noreuse_2048
+user	0m32.198s
+============== 
+
+gcc-O0_noreuse_2048
+user	0m25.578s
+============== 
+
+icc_noreuse_2048
+user	0m0.716s
+============== 
+
+gcc_noreuse_2048
+user	0m25.566s
+============== 
+
+icc-O3_noreuse_2048
+user	0m0.696s
+============== 
+
+gcc-O3_noreuse_2048
+user	0m7.312s
+============== 
+
+icc-O0_reuse_2048
+user	0m22.329s
+============== 
+
+gcc-O0_reuse_2048
+user	0m24.890s
+============== 
+
+icc_reuse_2048
+user	0m0.660s
+============== 
+
+gcc_reuse_2048
+user	0m24.866s
+============== 
+
+icc-O3_reuse_2048
+user	0m0.656s
+============== 
+
+gcc-O3_reuse_2048
+user	0m7.332s
+==============

@@ -1,0 +1,12 @@
+# ASSIGNMENT
+Write a c function that sums a vector of integers. The function should have the 
+same signature as that in the main program in the src directory. Create a header file
+containing this function and place the file in src. "Include" the header file in main.
+Write a makefile to builds the executable. Run the program to verify the result. 
+push results to your own repo.
+
+# BUILD DIRECTIONS
+Source files included in src directory.
+Build files included in build directory. 
+Run make command in build directory to build executable.
+Run Roundup to execute program.

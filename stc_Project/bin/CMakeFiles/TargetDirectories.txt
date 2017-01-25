@@ -1,0 +1,7 @@
+/Users/JCHAO/Documents/UT/YEAR6/stc_Project/bin/CMakeFiles/install/local.dir
+/Users/JCHAO/Documents/UT/YEAR6/stc_Project/bin/CMakeFiles/install/strip.dir
+/Users/JCHAO/Documents/UT/YEAR6/stc_Project/bin/CMakeFiles/install.dir
+/Users/JCHAO/Documents/UT/YEAR6/stc_Project/bin/CMakeFiles/list_install_components.dir
+/Users/JCHAO/Documents/UT/YEAR6/stc_Project/bin/CMakeFiles/rebuild_cache.dir
+/Users/JCHAO/Documents/UT/YEAR6/stc_Project/bin/CMakeFiles/edit_cache.dir
+/Users/JCHAO/Documents/UT/YEAR6/stc_Project/bin/CMakeFiles/Needleman_Wunsch.dir

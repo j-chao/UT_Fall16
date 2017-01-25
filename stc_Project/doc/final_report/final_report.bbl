@@ -1,0 +1,29 @@
+\begin{thebibliography}{1}
+
+\bibitem{multiple_alignment}
+Multiple sequence alignment.
+\newblock {\em Wikipedia}, 2016.
+
+\bibitem{rosenburg}
+Michael~S Rosenberg.
+\newblock Sequence alignment: Methods, models, concepts, and strategies.
+\newblock {\em Univ of California Press}, 2009.
+
+\bibitem{nguyen}
+Ken Nguyen.
+\newblock Multiple biological sequence alignment: Scoring functions, algorithms
+  and evaluation.
+\newblock {\em John Wiley and Sons}, 2016.
+
+\bibitem{columbia}
+Yechiam Yemini.
+\newblock Blosum scoring matrices.
+\newblock {\em Computational Genomics}, 2007.
+
+\bibitem{nw}
+Zhongneng Xu.
+\newblock A teaching approach from the exhaustive search method to the
+  needleman-wunsch algorithm.
+\newblock {\em Biochem. Mol. Biol. Educ.}, 2016.
+
+\end{thebibliography}

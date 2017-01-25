@@ -1,0 +1,107 @@
+Name:         Justin Chao
+UT EID:       jc55395
+Course:       Scientific and Technical Computing
+File:         time_results.txt
+Description:  CPU runtime results on Lonestar5 
+              for various calculations using matrices.
+
+
+Results for matrix (2000x2000) multiply operations with different optimizations and reuse.
+
+icc-O0_noreuse_2000     icc-O0_reuse_2000     gcc-O0_noreuse_2000     gcc-O0_reuse_2000
+-------------------     -----------------     -------------------     -----------------
+29.938 s                20.729 s              24.114 s                23.077 s
+
+
+icc_noreuse_2000        icc_reuse_2000        gcc_noreuse_2000        gcc_reuse_2000
+-------------------     -----------------     -------------------     -----------------
+0.652 s                 0.624 s               24.126 s                23.061 s
+
+
+icc-O3_noreuse_2000     icc-O3_reuse_2000     gcc-O3_noreuse_2000     gcc-O3_reuse_2000
+-------------------     -----------------     -------------------     -----------------
+29.938 s                20.729 s              24.114 s                23.077 s
+
+
+
+Results for matrix (2048x2048) multiply operations with different optimizations and reuse.
+
+icc-O0_noreuse_2048     icc-O0_reuse_2048     gcc-O0_noreuse_2048     gcc-O0_reuse_2048
+-------------------     -----------------     -------------------     -----------------
+32.189 s                22.328 s              25.578 s                24.890 s
+
+
+icc_noreuse_2048        icc_reuse_2048        gcc_noreuse_2048        gcc_reuse_2048
+-------------------     -----------------     -------------------     -----------------
+0.716 s                 0.660 s               25.566 s                24.866 s
+
+
+icc-O3_noreuse_2048     icc-O3_reuse_2048     gcc-O3_noreuse_2048     gcc-O3_reuse_2048
+-------------------     -----------------     -------------------     -----------------
+0.696 s                 0.656 s               7.312 s                 7.312 s
+
+
+
+Results for matrix multiply operations with different optimizations 
+and matrix sizes using CBLAS_SGEMM.
+
+icc-O0_2000             icc-O0_2048
+--------------          --------------
+0.290 s                 0.310 s
+
+icc_2000                icc_2048
+--------------          --------------
+0.260 s                 0.280 s
+
+icc-O3_2000             icc-O3_2048
+--------------          --------------
+0.260 s                 0.280 s
+
+
+Results for solving system of linear equations iteratively.
+
+        Jacobi Method               |        Gauss-Seidel Method          
+                                    |                                      
+icc-O0_2000        icc-O0_2048      | icc-O0_2000        icc-O0_2048      
+-------------      --------------   | --------------     -------------- 
+0.050 s            0.070 s          | 0.030 s            0.050 s
+                                    |                                     
+icc_2000           icc_2048         | icc_2000           icc_2048     
+--------------     --------------   | --------------     --------------   
+0.050 s            0.060 s          | 0.030 s            0.030 s
+                                    |
+icc-O3_2000        icc-O3_2048      | icc-O3_2000        icc-O3_2048
+--------------     --------------   | --------------     --------------
+0.060 s            0.060 s          | 0.030 s            0.020 s
+
+
+Results for solving system of linear equations by LU Factorization
+
+         LU Factorization           |       Solution Calculation
+                                    |
+icc-O0_2000        icc-O0_2048      | icc-O0_2000        icc-O0_2048      
+-------------      --------------   | --------------     -------------- 
+1.070 s            0.530 s          | 0.000 s            0.000 s
+                                    |                                     
+icc_2000           icc_2048         | icc_2000           icc_2048     
+--------------     --------------   | --------------     --------------   
+0.130 s            0.220 s          | 0.000 s            0.000 s
+                                    |
+icc-O3_2000        icc-O3_2048      | icc-O3_2000        icc-O3_2048
+--------------     --------------   | --------------     --------------
+0.180 s            0.310 s          | 0.000 s            0.000 s
+
+
+Total results for solving of linear system of equations directly 
+
+icc-O0_2000             icc-O0_2048
+--------------          --------------
+1.070 s                 0.530 s
+
+icc_2000                icc_2048
+--------------          --------------
+0.130 s                 0.220 s
+
+icc-O3_2000             icc-O3_2048
+--------------          --------------
+0.180 s                 0.310 s

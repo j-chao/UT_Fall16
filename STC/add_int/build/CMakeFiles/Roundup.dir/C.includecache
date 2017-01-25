@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home1/03928/juchao/STC/add_int/src/main.c
+stdio.h
+-
+roundup.h
+/home1/03928/juchao/STC/add_int/src/roundup.h
+
+/home1/03928/juchao/STC/add_int/src/roundup.c
+roundup.h
+/home1/03928/juchao/STC/add_int/src/roundup.h
+
+/home1/03928/juchao/STC/add_int/src/roundup.h
+

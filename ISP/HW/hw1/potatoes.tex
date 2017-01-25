@@ -1,0 +1,85 @@
+\documentclass{article}
+%packages
+\usepackage {lmodern}
+\usepackage [T1]{fontenc}
+\usepackage {fullpage}
+\usepackage {setspace}
+
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset
+{
+  frame=tb,
+  language=C,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+\begin{document}
+
+\title {Assignment01: Sorting Potatoes}
+\author {Justin Chao - jc55395 \\ SDS 322}
+\maketitle
+
+\section*{Sorting Potatoes by Insertion Sort}
+
+\begin{lstlisting}
+// sort_potatoes.c
+// sorts a sack of potatoes given user provided list of potato lengths
+
+#include <stdio.h>
+
+int main(){
+
+  int n, array[1000], c, d, t;
+
+ // prompt user for number of potatoes 
+  printf("Enter number of potatoes\n");
+  scanf("%d", &n);
+
+ // prompt user for lengths of potatoes 
+  printf("Enter %d integers as potato lengths (in inches)\n", n);
+ 
+  for (c = 0; c < n; c++) {
+    scanf("%d", &array[c]);
+  }
+ 
+  for (c = 1 ; c <= n - 1; c++) {
+    d = c;
+ 
+    while ( d > 0 && array[d] > array[d-1]) {
+      t          = array[d];
+      array[d]   = array[d-1];
+      array[d-1] = t;
+ 
+      d--;
+    }
+  }
+ 
+  printf("Sorted list of potatoes in descending order of length in inches:\n");
+ 
+  for (c = 0; c <= n - 1; c++) {
+    printf("%d\n", array[c]);
+  }
+
+  return 0;
+}
+\end{lstlisting}
+
+\end{document}

@@ -1,0 +1,9 @@
+# import_Country.py runtimes
+
+real    0m0.088s
+user    0m0.048s
+sys     0m0.030s
+
+3 records imported.
+
+No import errors.

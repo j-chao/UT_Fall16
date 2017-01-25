@@ -1,0 +1,98 @@
+etc_code,etc_name,status,beds_open,partner_org,latitude,longitude,lab_present,country_name
+GIN_0011,Macenta,Open,70,French Red Cross,8.541,-9.471,Y,Guinea
+GIN_0010,Gueckedou,Open,100,MSF,8.562,-10.133,Y,Guinea
+GIN_0001,Conakry Donka Hospital,Open,70,MSF,9.535,-13.683,Y,Guinea
+GIN_0003,Coyah,Under Construction,0,,9.73,-13.421,N,Guinea
+GIN_0009,Beyla,Under Construction,0,Women and Health Alliance International,8.69,-8.648,N,Guinea
+GIN_0007,Nzerekore,Open,0,Alliance for International Medical Action,7.756,-8.82,N,Guinea
+GIN_0054,Kerouane,Under Construction,0,French Red Cross,9.2741,-9.00326,N,Guinea
+GIN_0058,Wonkifong,Under Construction,0,,9.730112,-13.42081,N,Guinea
+GIN_0059,Kankan,Under Construction,0,MSF,10.383,-9.305,N,Guinea
+LBR_0001,BAfrican Risk Capacitylayville,Under Construction,0,Pacific African Risk Capacityhitects and Engineers,4.67654149,-8.23489495,N,Liberia
+LBR_0001,,,,Aspen,,,,
+LBR_0002,Bopulu,Under Construction,0,Pacific African Risk Capacityhitects and Engineers,7.06390178,-10.4906908,N,Liberia
+LBR_0002,,,,Aspen,,,,
+LBR_0003,Buchanan,Open,0,Institute of Medicine,5.88810337,-10.03322255,N,Liberia
+LBR_0026,Tappita,Under Construction,0,Heart to Heart,6.4899591,-8.85999291,N,Liberia
+LBR_0026,,,,Pacific African Risk Capacityhitects and Engineers,,,,
+LBR_0010,Greenville,Under Construction,0,Pacific African Risk Capacityhitects and Engineers,5.498,-8.66,N,Liberia
+LBR_0010,,,,MSB,,,,
+LBR_0011,Harper,Under Construction,0,Partners in Health,4.39341051,-7.69252002,N,Liberia
+LBR_0011,,,,Pacific African Risk Capacityhitects and Engineers,,,,
+LBR_0006,Fish Town,Under Construction,0,African Risk Capacity,5.19639,-7.876,N,Liberia
+LBR_0025,Sinje,Open,50,Institute of Medicine,6.81605455,-11.13382627,N,Liberia
+LBR_0030,Zwedru,Open,0,Partners in Health,6.06495705,-8.1380602,N,Liberia
+LBR_0030,,,,Pacific African Risk Capacityhitects and Engineers,,,,
+LBR_0028,Voinjama,Under Construction,0,Women and Health Alliance International,8.41658363,-9.74996812,N,Liberia
+LBR_0028,,,,GOAL,,,,
+LBR_0028,,,,Pacific African Risk Capacityhitects and Engineers,,,,
+LBR_0028,,,,Aspen,,,,
+LBR_0012,JFK hospital,Closed,0,Ministry of Health,6.28723,-10.77325,N,Liberia
+LBR_0012,,,,World Health Organization,,,,
+LBR_0021,SKD 1,Under Construction,0,International Rescue Committee,6.25675606,-10.70045594,N,Liberia
+LBR_0022,SKD 2,Open,50,German RC,6.25744595,-10.7005257,N,Liberia
+LBR_0022,,,,German Armed Forces,,,,
+LBR_0017,Congo Town 2 (old MoD 2),Closed,0,MBS Sweden,6.268152,-10.731191,N,Liberia
+LBR_0014,Kakata II,Closed,0,,6.53993904,-10.34222136,N,Liberia
+LBR_0024,Robertsport,Closed,0,,6.75201231,-11.36470465,N,Liberia
+LBR_0048,Ganta,Under Construction,0,Nimba Country Health Team CHT,7.2375,-8.9814,N,Liberia
+LBR_0048,,,,Project Concern International,,,,
+LBR_0019,ELWA 3,Open,60,MSF,6.24443999,-10.70028,N,Liberia
+LBR_0018,ELWA 2,Open,100,Ministry of Health,6.23965,-10.696,N,Liberia
+LBR_0018,,,,World Health Organization,,,,
+LBR_0110,SKD 3 - Chinese,Open,100,Chinese Foreign Medical Team,6.25800905,-10.70336322,N,Liberia
+LBR_0005,Firestone,Open,31,Firestone,6.35305998,-10.46971999,N,Liberia
+LBR_0027,Tubmanburg,Open,100,Institute of Medicine,6.86875073,-10.82040988,N,Liberia
+LBR_0023,Unity Conference Centre,Open,50,Ministry of Health,6.38903522,-10.79283257,N,Liberia
+LBR_0009,Suakoko / Gbarnga,Open,71,International Medical Corps,7.004669,-9.555144,N,Liberia
+LBR_0020,Island Clinic,Open,150,Ministry of Health,6.3843716,-10.7871135,N,Liberia
+LBR_0020,,,,World Health Organization,,,,
+LBR_0020,,,,African Union,,,,
+LBR_0015,Monrovia Medical Unit,Open,22,US Public Health Service,6.313333,-10.801389,N,Liberia
+LBR_0007,Foya,Closed,0,MSF,8.3789113,-10.20575665,N,Liberia
+LBR_0016,Congo Town 1 (old MoD),Open,40,African Union,6.27028,-10.73417,N,Liberia
+LBR_0016,,,,Cuban Foreign Medical Team,,,,
+LBR_0016,,,,Ministry of Health,,,,
+LBR_0013,Kakata 1,Open,50,International Medical Corps,6.52752356,-10.36038423,N,Liberia
+LBR_0008,Ganta United Methodist Hospital,Open,36,Methodist Church,7.23732659,-8.98132287,N,Liberia
+LBR_0008,,,,Project Concern International,,,,
+LBR_0116,Gbediah Town,Under Construction,0,Pacific African Risk Capacityhitects and Engineers,5.483,-9.588,N,Liberia
+LBR_0116,,,,Aspen,,,,
+LBR_0119,Zorzor,Planned,0,Pacific African Risk Capacityhitects and Engineers,7.776,-9.423,N,Liberia
+LBR_0119,,,,Aspen,,,,
+SLE_0001,Goderich,Open,32,EMERGENCY,8.424321,-13.280407,Y,Sierra Leone
+SLE_0002,Hastings,Open,10,Republic of Sierra Leone Armed Forces,8.382142,-13.140652,Y,Sierra Leone
+SLE_0002,,,,Kings Sierra Leone Partnership,,,,
+SLE_0002,,,,European Union,,,,
+SLE_0004,Police Training Sch-Hastings 1,Open,20,Ministry of Health,8.382705,-13.125851,N,Sierra Leone
+SLE_0004,,,,Republic of Sierra Leone Armed Forces,,,,
+SLE_0005,Kerry Town STC,Open,7,Save the Children,8.257095,-13.086371,Y,Sierra Leone
+SLE_0005,,,,Public Health England,,,,
+SLE_0006,Port Loko ETU,Open,20,GOAL,8.77665,-12.76239,Y,Sierra Leone
+SLE_0006,,,,Public Health England,,,,
+SLE_0007,Lunsar ETU,Open,20,International Medical Corps,8.69854,-12.57656,N,Sierra Leone
+SLE_0008,Moyamba ETU,Open,30,Medecins du Monde,8.1778929,-12.41256334,Y,Sierra Leone
+SLE_0008,,,,Defense Threat Reduction Agency,,,,
+SLE_0010,"China-SL Friendship Hospital ETU, Jui",Open,5,Chinese Center for Disease Control and Prevention,8.38686091,-13.14954849,Y,Sierra Leone
+SLE_0012,Kailahun MSF,Closed,0,MSF,0,0,N,Sierra Leone
+SLE_0012,,,,Public Health Agency-Canada,,,,
+SLE_0013,Rural Kenema Field Hospital (IFRC),Open,12,International Federation Of Red Cross and Red Crescent Societies,8.005088,-11.1156,N,Sierra Leone
+SLE_0014,Dorma ETU - Koidu Town,Open,25,Well Body,8.630038,-10.958743,Y,Sierra Leone
+SLE_0014,,,,Partners in Health,,,,
+SLE_0015,Bo Town MSF,Open,104,US Center for Disease Control,7.94104,-11.6697,Y,Sierra Leone
+SLE_0009,Makeni TU,Open,100,International Medical Corps,8.7985682,-12.03104834,Y,Sierra Leone
+SLE_0009,,,,Public Health England,,,,
+SLE_0022,Police Training Sch-Hastings 2,Open,50,Ministry of Health,8.3827045,-13.12585093,N,Sierra Leone
+SLE_0022,,,,RSLAP,,,,
+SLE_0023,Maforki ETU,Open,44,Ministry of Health,8.74984,-12.7724,N,Sierra Leone
+SLE_0023,,,,PLAN,,,,
+SLE_0020,Magbenteh Hospital,Closed,0,Ministry of Health,0,0,N,Sierra Leone
+SLE_0020,,,,Addax Bioenergy,,,,
+SLE_0020,,,,African Union,,,,
+SLE_0020,,,,World Health Organization,,,,
+SLE_0109,34 Military Hospital,Open,10,British Medical Team,8.464217,-13.261242,N,Sierra Leone
+SLE_0110,Magbankor MSF ETU,Open,50,MSF,8.73617,-11.92354,Y,Sierra Leone
+SLE_0110,,,,OCNML,,,,
+SLE_0146,MSF POW School (ETU),Closed,15,MSF,0,0,Y,Sierra Leone
+SLE_0146,,,,European Union,,,,
+SLE_0147,ADRA,Open,10,Cuban Medical Brigade,8.334213,-13.07302,N,Sierra Leone

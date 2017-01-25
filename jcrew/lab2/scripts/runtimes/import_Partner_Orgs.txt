@@ -1,0 +1,9 @@
+# import_Partner_Orgs.py runtimes
+
+real    0m0.183s
+user    0m0.079s
+sys     0m0.045s
+
+46 records imported
+
+No import errors.

@@ -1,0 +1,38 @@
+\begin{thebibliography}{1}
+
+\bibitem{multiple_alignment}
+Multiple sequence alignment.
+\newblock {\em Wikipedia}, 2016.
+
+\bibitem{wilke}
+Claus~O. Wilke.
+\newblock Aligning sequences.
+\newblock {\em The Wilke Lab}, 2016.
+
+\bibitem{fft}
+Russell~W. Hanson.
+\newblock Fast fourier transform analysis of dna sequences.
+\newblock {\em The Division of Mathematics and Natural Sciences, Reed College},
+  2003.
+
+\bibitem{columbia}
+Yechiam Yemini.
+\newblock Blosum scoring matrices.
+\newblock {\em Computational Genomics}, 2007.
+
+\bibitem{sw}
+Smith--waterman algorithm.
+\newblock {\em Wikipedia}, 2016.
+
+\bibitem{code}
+Isaac Turner.
+\newblock seq-align.
+\newblock {\em GitHub}, 2016.
+
+\bibitem{blosum}
+Pizzi~E Brick~K.
+\newblock A novel series of compositionally biased substitution matrices for
+  comparing plasmodium proteins.
+\newblock {\em U.S. National Library of Medicine}, 2008.
+
+\end{thebibliography}

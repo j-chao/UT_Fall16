@@ -1,0 +1,81 @@
+0        0         0         0.1     0.1     0        0.1     0         0          0.40385
+0        0         0         0.1     0.1     0        0.1     0         0.00971    0.40385
+0        0         0         0.1     0.1     0        0.1     0         0.34951    0
+0.1923   0.2       0.15909   0.1     0.1     0.95455  0.1     0         0          0
+0        0         0         0.1     0.1     0        0.1     1         0.40777    0.05769
+0.11538  0         0.13636   0.1     0.1     0        0.1     0         0          0
+0        0.8       0.70455   0.1     0.1     0.04545  0.1     0         0          0
+0.69231  0         0         0.1     0.1     0        0.1     0         0.23301    0.13462
+0        0         0         0.1     0.1     0        0.1     0         0          0
+0        0         0         0.1     0.1     0        0.1     0         0          0
+
+
+Markov Matrix
+-------------------------------------------
+
+0   0   0   0   0   0   0   0   0   21
+0   0   0   0   0   0   0   0   1   21
+0   0   0   0   0   0   0   0   36  0
+5   6   7   0   0   21  0   0   0   0
+0   0   0   0   0   0   0   11  42  3
+3   0   6   0   0   0   0   0   0   0
+0   24  31  0   0   1   0   0   0   0
+18  0   0   0   0   0   0   0   24  7
+0   0   0   0   0   0   0   0   0   0
+0   0   0   0   0   0   0   0   0   0
+
+
+Initial Probability Vector
+--------------------------------------------
+(randomized in code, please see code output.)
+
+
+Records
+--------------------------------------------
+Oklahoma 52             TCU 46
+Oklahoma 45             Texas 40
+Oklahoma 38             Kansas State 17
+Oklahoma 66             Texas Tech 59
+Baylor 35               Oklahoma State 24
+Baylor 45               Iowa State 42
+Baylor 49               Kansas 7
+West Virginia 17        Kansas State 16
+West Virginia 48        Texas Tech 17
+West Virginia 34        TCU 10
+Oklahoma State 49       Texas 31
+Oklahoma State 38       Iowa State 31
+Oklahoma State 44       Kansas 20
+Kansas State 44         Texas Tech 38
+Kansas State 24         Texas 21
+TCU 41                  Iowa State 20
+TCU 24                  Kansas 23
+Texas 27                Iowa State 6
+Texas Tech 55           Kansas 19
+
+
+Team Order
+--------------------------------------------
+1.  Texas
+2.  TCU
+3.  Texas Tech
+4.  Oklahoma
+5.  Baylor
+6.  Kansas State
+7.  West Virginia
+8.  Oklahoma State
+9.  Kansas
+10. Iowa State
+
+
+Team Rankings as Determined from Markov Chain
+--------------------------------------------
+1.  Baylor
+2.  West Virginia
+3.  Oklahoma
+4.  Oklahoma State
+5.  TCU
+6.  Texas
+7.  Texas Tech
+8.  Kansas State
+9.  Kansas
+10. Iowa State

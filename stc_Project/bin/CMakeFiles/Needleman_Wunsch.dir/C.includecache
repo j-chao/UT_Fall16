@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home1/03928/juchao/stc_project/src/main.c
+needleman_wunsch.h
+/home1/03928/juchao/stc_project/src/needleman_wunsch.h
+stdio.h
+-
+stdlib.h
+-
+
+/home1/03928/juchao/stc_project/src/needleman_wunsch.c
+needleman_wunsch.h
+/home1/03928/juchao/stc_project/src/needleman_wunsch.h
+stdio.h
+-
+stdlib.h
+-
+
+/home1/03928/juchao/stc_project/src/needleman_wunsch.h
+
